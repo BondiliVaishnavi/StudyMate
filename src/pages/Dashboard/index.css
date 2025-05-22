@@ -1,0 +1,93 @@
+/* Profile Section Styling */
+.profile-section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px rgba(108, 99, 255, 0.1);
+    position: relative;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background: #6C63FF;
+    color: white;
+    border: none;
+    border-radius: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background: #5a54e6;
+    transform: translateY(-2px);
+  }
+  
+  .profile-field {
+    margin-bottom: 1.5rem;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+    background: #f8f9ff;
+  }
+  
+  .profile-label {
+    font-size: 0.9rem;
+    color: #6B7280;
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-value {
+    font-size: 1.1rem;
+    color: #2D2D2D;
+    font-weight: 500;
+  }
+  .match-button {
+    background-color: #d63384;
+    color: white;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .save-button {
+  background-color: #28a745; /* green color */
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+.profile-field input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #fff;
+  margin-top: 5px;
+}

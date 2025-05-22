@@ -1,0 +1,43 @@
+.footer {
+    background-color: #ffffff;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-link {
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #d63384; /* A nice pink highlight */
+  }
+  
